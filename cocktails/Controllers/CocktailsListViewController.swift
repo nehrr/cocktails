@@ -34,6 +34,7 @@ class CocktailsListViewController: UIViewController, UITableViewDataSource {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = "🍸 Cocktails"
         self.getData()
         
     }
