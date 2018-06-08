@@ -106,9 +106,6 @@ class DetailsViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         switch section {
-        case 0:
-            return ""
-            
         case 1:
             return "Ingredients"
             
@@ -116,7 +113,7 @@ class DetailsViewController: UIViewController, UITableViewDataSource {
             return "Instructions"
             
         default:
-            return ""
+            return nil
         }
     }
     
