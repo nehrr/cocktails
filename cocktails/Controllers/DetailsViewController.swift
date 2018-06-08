@@ -16,14 +16,9 @@ class DetailsViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     
     var cocktail: Cocktail?
-    var sections = [[Cocktail]]()
-    var sectionsName = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.sectionsName = ["header", "ingredients", "instructions"]
-        //        self.sections =
         
         self.getData()
     }
