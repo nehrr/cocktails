@@ -65,10 +65,13 @@ class DetailsViewController: UIViewController, UITableViewDataSource {
         switch section {
         case 0:
             return 1
+            
         case 1:
             return cocktail?.ingredients.count ?? 0
+            
         case 2:
             return 1
+            
         default:
             return 1
         }
@@ -102,6 +105,22 @@ class DetailsViewController: UIViewController, UITableViewDataSource {
             
         default:
             return UITableViewCell()
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        switch section {
+        case 0:
+            return ""
+            
+        case 1:
+            return "Ingredients"
+            
+        case 2:
+            return "Instructions"
+            
+        default:
+            return ""
         }
     }
     

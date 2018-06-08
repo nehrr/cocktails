@@ -109,13 +109,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDJ-9y-kvv">
-                                                    <rect key="frame" x="116" y="8" width="228" height="21"/>
+                                                    <rect key="frame" x="116" y="16" width="228" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w5y-Ty-upU">
-                                                    <rect key="frame" x="116" y="61" width="228" height="21"/>
+                                                    <rect key="frame" x="116" y="62.5" width="228" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -126,11 +126,11 @@
                                                 <constraint firstItem="V6Y-cu-0Tr" firstAttribute="leading" secondItem="bUX-4V-y0I" secondAttribute="leading" id="9sw-lV-AbS"/>
                                                 <constraint firstItem="sDJ-9y-kvv" firstAttribute="leading" secondItem="V6Y-cu-0Tr" secondAttribute="trailing" constant="16" id="AYx-WJ-sCp"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="w5y-Ty-upU" secondAttribute="trailing" constant="16" id="CXh-GZ-E02"/>
-                                                <constraint firstItem="w5y-Ty-upU" firstAttribute="top" secondItem="sDJ-9y-kvv" secondAttribute="bottom" constant="32" id="TUk-Sy-IjX"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="sDJ-9y-kvv" secondAttribute="trailing" constant="16" id="dbM-ig-g6j"/>
                                                 <constraint firstAttribute="bottom" secondItem="V6Y-cu-0Tr" secondAttribute="bottom" id="eaD-N5-0TU"/>
+                                                <constraint firstAttribute="bottom" secondItem="w5y-Ty-upU" secondAttribute="bottom" constant="16" id="iOi-Ds-dNV"/>
                                                 <constraint firstItem="w5y-Ty-upU" firstAttribute="leading" secondItem="V6Y-cu-0Tr" secondAttribute="trailing" constant="16" id="nsh-Ou-I2U"/>
-                                                <constraint firstItem="sDJ-9y-kvv" firstAttribute="top" secondItem="bUX-4V-y0I" secondAttribute="top" constant="8" id="pjx-Up-22s"/>
+                                                <constraint firstItem="sDJ-9y-kvv" firstAttribute="top" secondItem="bUX-4V-y0I" secondAttribute="top" constant="16" id="pjx-Up-22s"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
