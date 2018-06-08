@@ -21,6 +21,7 @@ class DetailsViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         
         self.getData()
+        navigationItem.title = self.cocktail?.name
     }
     
     func getData() {
